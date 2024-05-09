@@ -46,3 +46,18 @@ Containerization, facilitated by platforms like Docker, offers a lightweight alt
 
 Containerization offers a compelling solution to the challenges posed by traditional virtualization. By adopting container platforms like Docker, organizations can achieve efficient resource utilization, application isolation, and cost savings, making it the preferred choice for modern application deployment.
 
+
+
+**DOCKER LIFECYCYCLE:**
+The Docker lifecycle begins with the installation of the Docker daemon on the server. Once Docker is installed, the next step is to create a Dockerfile. This file contains instructions for building a Docker image, specifying the environment, dependencies, and configuration needed for the application.
+
+After writing the Dockerfile, the **Docker Build command** is used to convert it into a Docker image. This involves pulling necessary base images, executing the instructions in the Dockerfile to set up the environment, and packaging the application and its dependencies into a portable image format.
+
+Once the Docker image is built, it can be stored in a Docker registry for distribution and reuse. With the **Docker Run command,** the image is instantiated as a Docker container. This creates an isolated environment where the application can run with its own filesystem, networking, and resources.
+
+Throughout the lifecycle, Docker provides various commands and features for managing containers, such as Docker Start, Stop, Restart, and Remove, allowing for seamless deployment, scaling, and maintenance of containerized applications.
+
+
+
+
+
