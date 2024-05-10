@@ -36,6 +36,8 @@ Containerization, facilitated by platforms like Docker, offers a lightweight alt
 
 **Resource Efficiency:** Containers dynamically allocate resources, enabling efficient utilization and scalability.
 
+**Sharing the resources:** if we stop the container that allows to get back the resorces to the host O/S so that other containers can use the resource if it requires.
+
 **Deployment Options:**
 
 **Physical Server Deployment:** Installing Docker on a physical server allows the creation of containers, optimizing resource usage without the overhead of VMs.
