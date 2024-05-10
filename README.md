@@ -49,6 +49,8 @@ Containerization, facilitated by platforms like Docker, offers a lightweight alt
 Containerization offers a compelling solution to the challenges posed by traditional virtualization. By adopting container platforms like Docker, organizations can achieve efficient resource utilization, application isolation, and cost savings, making it the preferred choice for modern application deployment.
 
 
+**What IS DOCKER?** Docker is a powerful containerization platform enabling the creation, maintenance, and management of containers. With Docker, users can write Dockerfiles to define container configurations, build images from these files, and deploy containers from the resulting images. Additionally, Docker facilitates seamless integration with container registries such as Docker Hub and Amazon ECR, enabling efficient sharing and distribution of containerized applications and services.
+
 
 **DOCKER LIFECYCYCLE:**
 The Docker lifecycle begins with the installation of the Docker daemon on the server. Once Docker is installed, the next step is to create a Dockerfile. This file contains instructions for building a Docker image, specifying the environment, dependencies, and configuration needed for the application.
